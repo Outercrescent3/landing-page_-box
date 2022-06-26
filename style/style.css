@@ -68,3 +68,13 @@ background-color: var(--cor05)
  body , main{
     background-color: var(--cor03);
 }
+
+
+/*===============================================================================================================*/
+
+.wall{
+    display: none;
+}
+:target{
+    display: block;
+}
