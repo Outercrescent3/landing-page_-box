@@ -1,9 +1,10 @@
 var count = 1
 document.getElementById("radio1").checked = true;
 
+// O método seInterval pede dois parametros, 1 é a funãoq ue será executada e o 2 é o tempo em milisegundos
 setInterval(function(){
 nextImage()
-},2000)
+},5000)
 
 function nextImage(){
 count++

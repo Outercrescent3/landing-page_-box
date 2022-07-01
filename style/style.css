@@ -101,6 +101,7 @@ overflow: hidden;
 
 .slide{
     position: relative;
+    transition: 2s;
 }
 
 .slide img{
@@ -122,14 +123,15 @@ overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
+    
 }
 
 .manual-btn:hover{
     background-color: var(--cor01);
 }
 
-
-#radio1:checked ~ .first{
+/* ============================= MOVIMENTO DAS IMAGENS =====================*/
+#radio1:checked ~ .first {
     margin-left: 0;
 }
 
@@ -140,5 +142,8 @@ overflow: hidden;
 #radio3:checked ~ .first{
     margin-left: -200%;
 }
+
+/*===============================================================================================================*/
+
 
 /*===============================================================================================================*/
