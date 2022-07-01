@@ -46,23 +46,44 @@
         </nav>      
     </header>
     <main>
-        <section class="slidershow">
-            <div class="container">
-                <div
-                class="conteudo">
-                <img src="images/imges/pexels-ron-lach-8736750.jpg" alt="">
-                 <img src="images/imges/pexels-pixabay-163431.jpg" alt="">
-                <img src="images/imges/pexels-pixabay-163351.jpg" alt="">
+        <section class="slider">
+             <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+               
+                
+                    <!--  SLIDE IMAGES -->    
+                <div class="slide first">
+                    <img src="images/imges/pexels-ron-lach-8736750.jpg" alt="">
+                </div>       
+                 <div class="slide">
+                    <img src="images/imges/pexels-pixabay-163431.jpg" alt="">
+                </div>
+                <div class="slide">
+                   <img src="images/imges/pexels-pixabay-163351.jpg" alt=""> 
+                </div>
+ 
+       
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
                 </div>
 
+             </div> 
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
             </div>
         </section>
-        <section>
 
-        </section>
     </main>
     <footer>
 
     </footer>
+
+    <script src="animacao-slider.js"></script>
 </body>
 </html>

@@ -1,0 +1,1 @@
+https://www.youtube.com/watch?v=BpzyuuPIEaQ  -- video sobre a criação do slider
