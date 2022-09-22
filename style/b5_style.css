@@ -1,0 +1,43 @@
+:root{
+    --cor01: white;
+    --cor02: black;
+    --cor03: red;
+    --cor04: darkgray;
+    --cor05:orange;
+}
+
+body{
+    background-image: linear-gradient( to top, var(--cor03), var(--cor03),var(--cor03),var(--cor02));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+#header{
+    padding: 0;
+}
+
+
+
+
+.navbar-brand{
+    margin-right: 0 !important;
+}
+
+button #icon{
+    color: white !important;
+
+}
+
+.navbar-brand img{
+margin-top: 15px;
+width: 300px;
+height: 200px;
+}
+
+.nav-item{
+   /* background-color: white;*/
+    color: var(--cor01);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
